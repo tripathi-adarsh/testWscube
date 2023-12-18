@@ -1,0 +1,631 @@
+*{margin: 0px; padding: 0px; -webkit-box-sizing: border-box;}
+
+body  {
+    /*background-image:url("images/index/bgimage3.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    /*background-position: center; */
+ }
+ .header_bg_color{background: linear-gradient(to left, #fff 0%, #f16a67 100%) !important}
+.cust-heder{
+/*background-image: url(". ./../image/intro-bg.png"); LibraryTeambanner-01-01-01.png*/
+    background-image: url("images/index/LibraryTeambanneryellow-02-01.jpg");
+    /*width: 100%;*/
+    height: 100vh;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+}
+.cust-qrcode{
+    padding: 2px;
+    border: 1px solid;
+    font-size: 24px;
+
+}
+.navbar-brand img{height: 33.77px; width: 150px; vertical-align: middle;}
+#navbarSupportedContent,a{color: #fff;}
+
+.cust-main{
+    width: 100%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    height: -webkit-fill-available;
+    background-repeat: no-repeat;    
+}
+
+.cust-section-text{
+    padding: 0% 15%;
+     color:white;
+     margin: 20% 5% 10% 5%;
+    }
+/*.cust-section-text{
+ color:white;
+ margin: 18% 5% 5% 5%;
+}*/
+.cust-text-up{
+    padding: 0% 6%;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    /*line-height: 66px;*/      
+}
+.cust-text-down{
+    color: white;
+    /*padding: 5% 10%;*/
+    font-size: 24px;
+    font-weight: 300;
+    /*line-height: 31px;*/
+}
+
+/*---------------------------------button section start--------------------------*/
+.btn{color: #2e5cd0;
+    font-weight: 500;
+    padding: 0 53px;
+    border-radius: 3px;
+    line-height: 40px;
+}
+.btn:hover{
+   border: 1px solid #fff !important;
+   background:  transparent;
+   color: #fff;
+}
+.user-section .btn{
+   color: #fff;
+     
+}
+.user-section .btn:hover{
+   border: 1px solid #2466d1 !important;
+   color: #000;
+     
+}
+/*---------------------------------button section End--------------------------*/
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/*---------------------------------Tranding Populer Categories Start--------------------------*/
+.bgimage{
+    background-image: linear-gradient(to right,#027ac9 0,#1f0255 100%);
+  -webkit-clip-path: polygon(0 20%, 100% 0%, 100% 90%, 0 95%);
+}
+.cus-common-css{
+    position: relative;
+    margin-top: -5px
+} 
+.cusbg-gradient-color.gradient_tbook{
+background:-webkit-linear-gradient(90deg, rgb(248, 131, 121) 31%, rgb(255, 255, 255) 100%);
+background:-o-linear-gradient(90deg, rgb(248, 131, 121) 31%, rgb(255, 255, 255) 100%);
+background:-moz-linear-gradient(90deg, rgb(248, 131, 121) 31%, rgb(255, 255, 255) 100%);
+background:linear-gradient(90deg, rgb(248, 131, 121) 31%, rgb(255, 255, 255) 100%);
+}
+.cusbg-gradient-color.gradient_pbook{
+   
+    background-image: linear-gradient(to right,#433989 0,#1abfa9 100%);
+}
+.cusbg-gradient-color.gradient_pcategories{
+    /*background-image: linear-gradient(to right,414141 0,#304f89 100%);*/
+      background-image: linear-gradient(to right,#027ac9 0,#1f0255 100%);
+}
+.cusbg-gradient-color{
+    background-repeat: repeat-x;
+    content: '';
+    display: block;
+    position: relative;
+    left: -11vw;
+    width: 120vw;
+    -webkit-transform: rotate(-4deg);
+    -moz-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    -o-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+    height: 370px;
+    overflow: hidden;
+}
+.cus-rotated-bgimage .bgimage1, .bgimage3{
+    position: absolute;
+    top: -2vw;
+    left: 8.9vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: auto; 
+    width: 100%; 
+    background-position: center top; 
+    background-size:cover !important;
+    min-height: 120%;
+    width: 50.5vw;
+    opacity:0.3;
+    z-index:-1;
+       -webkit-transform: rotate(4deg) !important;
+    -moz-transform: rotate(4deg) !important;
+    -ms-transform: rotate(4deg) !important;
+    -o-transform: rotate(4deg) !important;
+    transform: rotate(4deg) !important;
+}
+.bgimage1{
+background-image: url("images/index/trending-book.jpg");
+   -webkit-transform: rotate(0deg) !important;
+    -moz-transform: rotate(0deg) !important;
+    -ms-transform: rotate(0deg) !important;
+    -o-transform: rotate(0deg) !important;
+    transform: rotate(0deg) !important;
+}
+.bgimage3{
+     background-image: url("images/index/categories.jpg");
+}
+.cus-rotated-bgimage2 .bgimage2{
+    position: absolute;
+    top: -2vw;
+  -webkit-transform: rotate(4deg) !important;
+    -moz-transform: rotate(4deg) !important;
+    -ms-transform: rotate(4deg) !important;
+    -o-transform: rotate(4deg) !important;
+    transform: rotate(4deg) !important;
+    right: 9.9vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+     height: auto; 
+     width: 100%; 
+     background-position: center top; 
+    background-size: cover!important;
+    min-height: 120%;
+    width: 50.5vw;
+     opacity:0.3;
+    z-index:-1;
+}
+.bgimage2
+{
+    background-image: url("images/index/popular.jpg");    
+}
+
+.cus-content-block{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    padding-top: 0;
+    box-sizing: border-box;
+
+}
+
+
+.cus-content-block .container{
+               -webkit-transform: rotate(4deg) !important;
+    -moz-transform: rotate(4deg) !important;
+    -ms-transform: rotate(4deg) !important;
+    -o-transform: rotate(4deg) !important;
+    transform: rotate(4deg) !important;
+}
+.trending_hp{
+     margin-right: -7%;
+}
+
+.popular_hp{
+    margin-left: -7%;
+}
+.margin-padding{margin-left:230px;}
+.cus-regular-text1{ color: #fff;text-align: left; margin-left: 20px; padding-left: 20px;}
+.cus-regular-text2{ color: #fff;text-align: left;  padding-left: 20px; margin-right: 12px;}
+.cus-section{
+    padding-top: 64px;
+    padding-bottom: 70px;
+    overflow: hidden;
+}
+/*---------------------------------Tranding Populer Categories End--------------------------*/
+
+/*---------------------------------Testimonilals Section Start--------------------------*/
+.primebook_img {
+ background-image: url("images/index/stars.png");
+/* background: url("../../image/home_page_testimonial_background.jpg");*/
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 100%;
+ width: 100%;
+ text-align: center;
+ opacity: .8;
+}
+
+.carousel {
+	margin: 50px auto;
+}
+.carousel .item {
+	color: #999;
+	overflow: hidden;
+    min-height: 120px;
+	font-size: 13px;
+}
+.carousel .media {
+	position: relative;
+	padding: 0 0 0 20px;
+	margin-left: 20px;
+}
+.carousel .media img {
+	width: 75px;
+	height: 75px;
+	display: block;
+	border-radius: 50%;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    border: 2px solid #fff;
+}
+.carousel .testimonial {
+    color: #fff;
+    position: relative;    
+    background: #9b9b9b;
+	padding: 15px;
+	margin: 0 0 20px 20px;
+}
+.carousel .testimonial::before, .carousel .testimonial::after {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	bottom: -20px;
+}
+.carousel .testimonial::before {
+    width: 20px;
+    height: 20px;
+	background: #9b9b9b;
+	box-shadow: inset 12px 0 13px rgba(0,0,0,0.5);
+}
+.carousel .testimonial::after {
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #fff;
+    border-left-color: #fff;
+}
+.carousel .item .row > div:first-child .testimonial {
+	margin: 0 20px 20px 0;
+}
+.carousel .item .row > div:first-child .media {
+	margin-left: 0;
+}
+.carousel .testimonial p {
+	text-indent: 40px;
+    line-height: 21px;
+	margin: 0;
+}
+.carousel .testimonial p::before {
+	content: '\94';
+    color: #fff;
+    font-weight: bold;
+    font-size: 68px;
+    line-height: 70px;
+    position: absolute;
+    left: -25px;
+    top: 0;
+}
+.carousel .overview {
+	padding: 3px 0 0 15px;
+}
+.carousel .overview .details {
+	padding: 5px 0 8px;
+}
+.carousel .overview b {
+	text-transform: uppercase;
+	color: #ff5555;
+}
+.carousel .carousel-control {
+	width: 30px;
+	height: 30px;
+    background: #666;
+    text-shadow: none;
+	top: 50%;
+}
+.carousel-control i {
+	font-size: 16px;
+}
+.carousel-control.left {
+	left: auto;
+	right: 40px;
+}
+.carousel-control.right {
+	left: auto;
+}
+
+.star-rating li {
+	padding: 0 2px;
+}
+.star-rating i {
+	font-size: 14px;
+	color: #ffdc12;
+}
+
+.cus-height2{height:100px !important;}
+#publisher-svg {fill:#383838 !important;}
+#guest-svg{fill:#383838 !important;}
+/*---------------------------------Testimonilals Section End--------------------------*/
+/**********************counter css section  Start******************/
+
+.counter-box {
+    display: block;
+    padding: 25px 15px 25px;
+    text-align: center;  
+}
+.counter-box p {
+    margin: 5px 0 0;
+    padding: 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500
+}
+
+.counter-box i {
+    font-size: 60px;
+    margin: 0 0 15px;
+    color: #d2d2d2
+}
+
+.counter {
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 28px
+}
+
+.counter-box.colored {
+/*    background: #3acf87*/
+}
+
+.counter-box.colored p,
+.counter-box.colored i,
+.counter-box.colored .counter {
+    color: #fff;
+}
+/**********************counter css section End******************/
+
+.counter-section{
+    background-color: #f26a67;
+}
+
+.getconnect_img h3{
+    color: #fff
+}
+
+.footer_css ul{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+.footer_css li{
+    line-height: 1;
+    margin-bottom: 22px;
+    margin-left: 10px;
+    color: #fff;
+}
+.footer_css a{
+    text-decoration: none;
+     color: #fff;
+}
+.footer-copyright a{
+    text-decoration: none;
+}
+/* change at 22/07/  sushil*/
+.cust_fa_size{
+    font-size: 20px;
+}
+.cus-contact i{
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    padding: 5px 4px;
+   background-color: #03a9f4 ;    
+}
+/*Start: css for home page users sushil 22/07 */
+.cust-users-pad{
+    padding: 5% 10%;
+    font-size: 16px;
+}
+.cust_margin_fu{
+    /*margin-top: 12% ;*/
+    margin-bottom: 18%;
+}
+.cust_reg_btn{
+    margin-top: 20px;
+}
+.cust_img_users{
+background-color: white;
+width: 100%;
+padding: 0% 20%;
+}
+.cust_img_div_width{
+    width: 90%;
+    margin: auto
+}  
+.cust_span_fs{
+    font-size: 12px;
+}
+.cust_ml_pub{
+    margin-left: 16% !important;
+}
+.navbar-toggle{
+    width: 40px !important;
+}
+.cus-mp{margin-top: 20px; margin-bottom: 20px;}
+ .cust_testmonial{
+    height: 250px;
+}
+.cus-headding{display: none !important;}
+/********************footer css  End********************/
+.cust-img-height{
+        height: 90px;
+    }
+@media (max-width: 767px){    
+    .cust_testmonial{
+        height: 350px;
+    }
+    .bgimage1,.bgimage3,.bgimage2{display: none;}
+    .contant-hide{display: none;}
+    .cus-mp{margin-top: 20px; margin-bottom: 20px;}
+    .counter-box{padding: 0px;}
+    .counter-box hr{display: block;}
+    /*.cus-contact i{    
+        padding: 6% 7%; 
+    }*/
+ .popular_hp {
+        margin-left: 0px !important;
+    }
+    .trending_hp{
+          margin-right: 0px !important;
+    }
+  
+}
+
+@media only screen and (max-width:990px){
+    .cust-color-grey{
+        color : grey;
+    }
+    .cus-headding{display: block !important;
+    }
+}
+@media only screen and (min-width:901px) and (max-width:1100px) {
+     .cust-section-text{
+         color:white;
+         margin: 20% 5% 8% 5%;
+    }
+    .cus-headding{
+        display: block !important;
+    }       
+}
+@media only screen and (min-width:769px) and (max-width:900px) {
+ .logo {
+        margin-left: 15px !important;
+    }
+    .cust-section-text{        
+         margin: 20% 5% 5% 5%;
+    }
+    .cus-headding{display: block !important;}
+  
+}
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .cust-img-height{
+        height: 50px;
+    }    
+    .logo {
+        margin-left: 5px !important;
+    }
+    .cust-section-text{             
+         margin: 20% 5% 5% 5%;
+         padding: 0% 6%;
+        }
+    .cust-text-up{
+        font-weight: 700;
+        font-size: 30px;
+        color: white;
+    }
+    .cust-text-down{
+        color: white;        
+        font-size: 18px;
+        font-weight: 300;
+        
+    }
+    .popular_hp {
+        margin-left: 0px !important;
+    }
+    .trending_hp{
+          margin-right: 0px !important;
+    }
+    .cus-headding{
+        display: block !important;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px){
+     .cust_ml_pub{
+        margin-left: 13% !important;
+    }
+    .cust-users-pad{
+        padding: 3% 3%;
+        font-size: 13px;
+    }
+    .cust_margin_fu{       
+        margin-bottom: 0%;
+    }
+     .cust_reg_btn{
+        margin-top: 0px;
+    }
+    .cust_img_users{
+        background-color: white;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .footer_css{
+        text-align: center;
+    }
+    .cust-section-text{             
+        margin: 18% 5% 2% 5%;
+        padding: 0% 2%;
+    }
+    .cust-text-up{
+        font-size: 20px;
+    }
+    .cust-text-down{
+        font-size: 15px;
+    }
+    .counter-box p{
+        font-size: 14px;
+    }
+    .counter{
+        font-size: 25px;
+    }
+    .text-dark{
+        font-size: 22px;
+    }
+    .popular_hp {
+        margin-left: 0px !important;
+    }
+    .trending_hp{
+          margin-right: 0px !important;
+    }
+    .cus-headding{
+        display: block !important;
+    }
+    .cus-school .mt-5{
+        margin-top: 0px !important;
+    }   
+}
+
+@media screen and (min-width: 769px) and (max-width: 990px){
+    .cust_ml_pub {
+        margin-left: 13% !important;
+    }
+}
+@media screen and (min-width: 575px) and (max-width: 768px){
+
+    .cust-users-pad{
+        padding: 3% 7%;
+        font-size: 14px;
+    }
+    .cust_margin_fu{
+       /* margin-top: 1% ;*/
+        margin-bottom: 5%;
+
+    }
+     .cust_reg_btn{
+        margin-top: 7px;
+        margin-bottom:5px;
+    }
+    .cust_img_users{
+        background-color: white;
+        width: 100%;
+        padding: 3% 12%;
+    }
+    .cust_ml_pub{
+        margin-left: 12% !important;
+    }
+}
+
+/*End: css for home page users sushil 22/07 */

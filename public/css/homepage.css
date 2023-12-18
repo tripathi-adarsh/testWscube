@@ -1,0 +1,158 @@
+.card{
+  background-color: #FFE01B;
+  border-radius: 10px;
+}
+.img-fluid{
+  height: 150px;
+  width: 150px;
+}
+.smart-carousel .sc-content-wrapper{
+  top: 8%;
+}
+.smart-carousel-container{
+  margin-top: 70px!important;
+}
+/* .smart-carousel {              
+  height: 400px;
+  }*/
+  .header .navbar-toggle{
+    width: 30px; 
+    height: 30px;
+  }
+  /*.Owl carousel css 05/08 sushil */   
+  .owl-carousel .owl-item{
+    margin: 0px;
+  }
+  .cust_testmonial{
+    height: unset;
+  }
+  .cust_test{
+   height: 350px;
+
+ }
+ .text-black-d{
+  color:#241C15 !important;
+}            
+@media only screen and (min-width:768px) {
+  .cust_test{
+   height: 250px;
+   margin: 0% 15% !important;
+ }
+}
+/*.Owl carousel css 05/08 sushil */   
+/*start: add class for hight  sushil 20/07  */      
+#Layer_1{
+  fill:#fff!important;
+  /*fill:#383838 !important;*/
+}
+#publisher-svg{
+  fill:#383838 !important;
+
+}
+#guest-svg{ fill:#383838 !important;}
+.cls-1{
+  opacity: 0.8px !important;
+  fill: #fff!important;
+  /*fill: #383838 !important;*/
+}
+.publisher-svg{
+  fill: #333 !important;
+}
+.guest-svg{
+  fill: #333 !important;
+}           
+.owl-carousel 
+{
+  touch-action: manipulation; 
+}
+.user:hover>.sub-menu-user{
+  z-index:999;
+}
+.sub-menu-user{
+  background-color: white;
+  color: #241C15;
+  width: fit-content !important;
+  padding: 5px !important;
+  margin: 5px 0px 5px -60px; 
+}
+.cust-span-underline {
+  color: #fff;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #FFE01B;
+}
+.cust_ml_pub{
+  margin-left: 14%;
+}
+.cust-slogan-size{
+  font-size: 14px;
+  padding: 1% 6%;
+  margin-bottom:5px;
+
+}
+/*corousel  */
+
+
+.swiper-container {
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  background-color: transparent;
+  overflow: hidden;
+  /*  border-radius: 8px;*/
+}
+
+.picture {
+  margin: auto;
+  border-radius: 8px;
+  width: 170px;
+  height: 250px;
+  overflow: hidden;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.detail {
+  padding: 25px 20px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+
+  h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  span {
+    display: block;
+    font-size: 16px;
+    color: white;
+  }
+}
+.swiper-pagination-bullet{
+  background: white;
+}
+/*corousel */
+.cust-counter{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 0;
+  border-top: 1px solid #241C15;
+
+}
+
+@media only screen and (max-width:575px) {
+  .cust-div-center{
+    margin-left: 25%!important;
+  }
+}

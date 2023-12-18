@@ -1,0 +1,124 @@
+body{
+        /*background-color: #f1f1f1 !important;*/
+        background-color: #fff !important;
+    }
+     .cus-ml{
+        padding-right: 15px;
+    }
+    @media (max-width: 991px){
+        .cus-ml{
+            padding-right: 0px;
+        }
+        .header .navbar-nav{
+            background-color: #f9c546;
+
+        }
+    }
+   
+    .cust-logo-img{           
+            box-shadow: unset !important;
+        }
+    .header_bg_color{background: linear-gradient(to left, #fff 0%, #f16a67 100%) !important}
+    .header-area{
+        font-weight:bold;
+    }
+    .flowpaper_bttnPrint,flowpaper_bttnDownload {
+        display:none;
+    }
+    .white {
+        color: #fff !important;
+    }
+
+    #primebookbox{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        padding: 4px;
+        z-index: 999;
+        background-color: #f48a30;
+        color: #fff;
+        font-size: 10px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    #freebookbox{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        padding: 4px;
+        z-index: 999;
+        background-color: #29abe2;
+        color: #fff;
+        font-size: 10px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    .cust-indx-pic{
+        height:35px !important; width:35px !important; border:2px solid #43464b;    
+    }
+    .header-right ul li {
+        padding: 5px 4px !important;
+    }
+
+    .user:hover>.sub-menu-user{
+        margin-top: 5px;
+        margin-right: 10px;
+        z-index:999;
+        background-color: #DBD9D2 !important;
+        color: #8C8C8C !important;
+        border-radius: 5px;
+        text-align: left;
+    }
+
+    ::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
+    ::-webkit-scrollbar:horizontal {
+        height: 11px;
+    }
+    ::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        border: 2px solid white;
+        background-color: rgba(0, 0, 0, .5);
+    }
+    ::-webkit-scrollbar-track {
+        background-color: #fff;
+        border-radius: 8px;
+    }
+    .header-right ul i{
+        font-size: 24px !important;
+    }
+    .cust-logo-text{
+        letter-spacing: 3px;
+        font-size: 8px;
+        padding-left: 7px!important;
+    }
+    #logo{
+        padding: 5px;
+    }
+    .nav-item-child{
+        margin: 0px !important;
+        padding:0 8px !important;
+    }
+     .input-icons i { 
+            position: absolute; 
+        } 
+          
+        .input-icons { 
+            width: 100%; 
+            margin-bottom: 10px; 
+        } 
+          
+        .cust_icon { 
+            padding: 8px; 
+            min-width: 40px;
+            right: 0px;
+        } 
+          
+        .input-field { 
+            width: 100%; 
+            padding: 10px; 
+            text-align: center; 
+        } 

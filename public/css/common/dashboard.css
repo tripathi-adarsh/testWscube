@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 Jan, 2020, 7:23:45 PM
+    Author     : Admin
+*/
+.form-horizontal .form-group{
+    margin:0px 0px 20px 0px;
+}
+.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody{
+  min-height: 40px;
+}
+.breadcrumb{
+    background: 0 0;
+    padding:0px 5px 5px 5px;
+    margin:0;
+    color: gainsboro;
+   /* list-style:circle !important;
+    list-style-type: circle !important; */
+    border-radius:4px; 
+    font-size:12px;
+    margin-bottom:3px;
+}
+
+.cus-color-white{
+    color: white;
+}
+.breadcrumb>.active{
+    color:#9eacb4;
+}
+
+.page-head .page-title>h1{color:#697882;font-size:22px;font-weight:400;margin:0;padding:0}
+
+.page-head .page-title>h1>small{color:#9eacb4;font-size:13px;font-weight:400}
+
+
+.cus-bg-color-white{
+    background:  white;
+}
+
+
+
+.bars{height:0px !important;}
+
+.section-cnt{
+    margin:75px 15px 0 315px;
+}

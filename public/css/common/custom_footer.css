@@ -1,0 +1,20 @@
+  .footer_css{
+   /*text-align: center;*/
+  }
+ 
+  .footer_css ul{
+   list-style-type: none;
+  }
+  .footer_css li{
+    margin-bottom: 15px;
+  }
+  .cust_fa_size{
+    font-size: 20px;
+}
+.cus-contact i{
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    padding: 5px 4px;
+   background-color: #03a9f4 ;    
+}

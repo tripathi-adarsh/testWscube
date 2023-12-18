@@ -1,0 +1,42 @@
+/*notification css by sushil. */
+*{margin: 0px; padding: 0px; -webkit-box-sizing: border-box;}  
+.cust_thead{
+	font-size: 11px !important;
+}
+.cust-ul{
+	width: 270px;
+}
+.cust_li{
+	border-top: 1px solid #43464b;
+	border-bottom: 1px solid #43464b;
+}
+.cust_border{
+	border:1px solid black;
+}
+.popover{
+	/*border:1px solid #43464b;*/
+	top: 51px;
+    
+    display: block;
+    max-width: 330px !important;
+}
+.popover-title{
+	background-color: #007C89 !important;
+}
+.popover .popover-content{
+	padding: 5px !important
+}
+.nav-item active .nav-link{
+	color: #fbb03b !important;
+}
+.tabs-advanced >li{
+	border-bottom: 1px solid #fbb03b !important;
+
+}
+.tabs-advanced > li:not(.active):not(:hover) {
+    border-bottom: 1px solid black !important;
+
+}
+.arrow{
+	
+}

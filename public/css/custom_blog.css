@@ -1,0 +1,85 @@
+.blue-gradient {
+  background: -webkit-linear-gradient(50deg, #45cafc, #303f9f) !important;
+  background: -o-linear-gradient(50deg, #45cafc, #303f9f) !important;
+  background: linear-gradient(40deg, #45cafc, #303f9f) !important; 
+}
+
+.cust-title{
+  height: 40px;
+  border-radius: 10px;
+  border:1px solid grey;
+  background-color: transparent;
+}
+.cust-textarea{
+  min-height: 200px;
+  border-radius: 10px;
+  border:1px solid grey;
+  background-color: transparent;
+}
+.bg-none{
+  background-color: transparent;
+}
+
+.cust-add-btn{
+  right: 56px;
+  top: -32px
+}
+.cust-remove-btn{
+  right: -3px;
+}
+.cust-font{
+  font-size: 14px !important  ;
+}
+.page-footer {
+  background-color: #114A7C; 
+}
+
+.blue-gradient {
+background: -webkit-linear-gradient(50deg, #45cafc, #303f9f) !important;
+background: -o-linear-gradient(50deg, #45cafc, #303f9f) !important;
+background: linear-gradient(40deg, #45cafc, #303f9f) !important; }
+
+.card-comments img {
+  width: 4rem; }
+
+.card-intro {
+  margin-top: 67px; 
+}
+.card-intro .card-body {
+  -webkit-border-radius: 0 !important;
+  border-radius: 0 !important; 
+}
+
+.navbar-brand img {
+  height: 20px; 
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #09c; }
+
+.card-avatar img {
+  width: 100px; 
+}
+.text-brown{
+  color: brown;
+}
+.cust-text-like{
+  color: #B20015 !important;
+}
+
+
+.cust_name_css {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cust_name_fs{
+  font-size: 16px;
+}
+
+@media only screen and (min-width:320px) and (max-width:767px){
+  .cust_name_fs{
+    font-size: 12px;
+  }
+}

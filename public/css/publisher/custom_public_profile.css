@@ -1,0 +1,119 @@
+.navbar .navbar-header{
+  margin-bottom: 0px;
+} 
+.btn-danger{
+  background-color:#fbb03b !important;
+  color: #43464b !important;
+}
+.nav-tabs {
+    border-bottom: 2px solid #43464b;
+}
+ .cust-radious{
+  border-radius: 0px 0px 10px 10px;
+ }
+ .card {
+    overflow: hidden;
+    position: relative;
+    /*border: 1px solid #CCC;*/
+    border-radius: none;
+    text-align: center;
+    padding: 0;
+    background-color: #284c79;
+    color: rgb(136, 172, 217);
+     z-index: 1;
+  }
+  .cust_card{
+   border-radius: 10px 10px 0px 0px;
+      /*position: absolute;*/
+    height: 400px;
+    background-size: cover;
+  }
+
+   .avatar {
+    position: relative;
+    margin-top: -85px !important;         
+    z-index: 1;
+  }
+  .avatar{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 3px solid #fbb03b;
+  }
+  .cust-img{
+    width: 100%;
+    height: 100%;
+
+  }
+  .cust-img-logo{
+    padding: 2px;
+    width: 200px;
+    height: 200px;
+  }
+  .cust-btn{
+    width: 200px;
+    border-radius: 25px!important;
+  }
+  .cust-padd-left{
+
+  }
+  .cust-text{
+    text-align: left;
+  }
+  .cust-add-width{
+    float: right;
+    width: 70%;
+
+  }
+  .cust-img-width{
+     width: 30%;
+     float: left;
+  }
+@media only screen and (min-width:575px) and (max-width:768px) {
+  .cust-add-width{         
+          width: 60%;
+        }
+        .cust-img-width{
+           width: 40%;           
+        }
+  .cust_card{
+      /*position: absolute;*/
+    height: 300px;
+    background-size: cover;
+  }
+
+}
+@media only screen and (min-width:320px) and (max-width:575px) {
+  .cust-btn-div{
+    padding-left: 0px;
+  }
+  .cust-text{
+      text-align: center;
+
+    }
+   .cust-add-width{
+      width: 100%;
+
+    }
+    .cust-img-width{
+       width: 100%;
+       text-align: center;
+    }
+  .cust-btn{
+    width: 140px;
+  }
+  .cust-img-logo{
+    width: 140px;
+    height: 140px;
+  }
+  .avatar{
+    position: relative;
+    margin-top: -50px !important;
+  }
+  .cust_card{
+      /*position: absolute;*/
+    height: 200px;
+    background-size: cover;
+  }
+
+}

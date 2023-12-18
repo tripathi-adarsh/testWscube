@@ -1,0 +1,70 @@
+.cust-logo-img{
+    width: 50px;
+    box-shadow: unset !important;
+}
+.cust-logo-text{
+    letter-spacing: 2px;
+    font-size: 8px;    
+    padding-top: 3px!important; 
+    margin-left: 8px !important;     
+}
+#logo{
+    padding: 5px;
+}
+.badge {
+    font-size: 10px;
+    position: absolute;
+    top: -10%;
+    right: -32%;
+    border-radius: 50%;
+    color: white
+}
+.theme-red .bars{
+    color: #FFE01B;
+}
+.cust-bg-green{
+  background-color: #00bf9e;
+}
+
+@media only screen and (max-width: 575px) {
+      .cust-logo-text{
+         margin-left: 14px !important;  
+      }
+    .navbar{
+        padding-bottom: 5px!important;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:767px) {
+    .cust-logo-text{
+         margin-left: 14px !important;  
+      }
+      .navbar{
+        padding-bottom: 5px!important;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:900px) {
+    .cust-logo-text{
+         margin-left: 17px !important;  
+      }
+}
+.input-icons i { 
+    position: absolute; 
+} 
+  
+.input-icons { 
+    width: 100%; 
+    margin-bottom: 10px; 
+} 
+  
+.cust_icon { 
+    padding: 8px; 
+    min-width: 40px;
+    right: 0px;
+} 
+  
+.input-field { 
+    width: 100%; 
+    padding: 10px; 
+    text-align: center; 
+} 
